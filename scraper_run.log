@@ -1,4 +1,4 @@
-[INFO] Time window since: 2026-10-14 13:36 EDT  |  DOB_ONLY_GENERAL=True
+[INFO] Time window since: 2026-10-15 13:10 EDT  |  DOB_ONLY_GENERAL=True
 [WARNING] SODA fetch failed: ipu4-2q9a -> HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=30)
-[WARNING] SODA fetch failed: w9ak-ipjd -> 503 Server Error: Service Unavailable for url: https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24order=%3Aupdated_at+DESC&%24limit=1000
-Saved 283 rows -> nyc_developers_daily.csv
+[WARNING] SODA fetch failed: w9ak-ipjd -> HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=30)
+Saved 306 rows -> nyc_developers_daily.csv
