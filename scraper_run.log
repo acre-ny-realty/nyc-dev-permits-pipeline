@@ -1,2 +1,5 @@
-[INFO] Time window since: 2026-10-20 13:54 EDT  |  DOB_ONLY_GENERAL=True
-Saved 286 rows -> nyc_developers_daily.csv
+[INFO] Time window since: 2026-10-21 13:50 EDT  |  DOB_ONLY_GENERAL=True
+/home/runner/work/nyc-dev-permits-pipeline/nyc-dev-permits-pipeline/scraper.py:411: Pandas4Warning: The inplace keyword in DataFrame.sort_values is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  df.sort_values(by=["date", "source"], ascending=[False, True], inplace=True)
+Saved 278 rows -> nyc_developers_daily.csv
