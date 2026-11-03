@@ -1,6 +1,5 @@
-[INFO] Time window since: 2026-11-01 17:08 EST  |  DOB_ONLY_GENERAL=True
-[WARNING] SODA fetch failed: ipu4-2q9a -> HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=30)
+[INFO] Time window since: 2026-11-02 14:57 EST  |  DOB_ONLY_GENERAL=True
 /home/runner/work/nyc-dev-permits-pipeline/nyc-dev-permits-pipeline/scraper.py:411: Pandas4Warning: The inplace keyword in DataFrame.sort_values is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.sort_values(by=["date", "source"], ascending=[False, True], inplace=True)
-Saved 307 rows -> nyc_developers_daily.csv
+Saved 306 rows -> nyc_developers_daily.csv
